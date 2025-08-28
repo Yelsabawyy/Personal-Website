@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Youssef Elsabawy Portfolio
+
+This is a personal portfolio website built with [Next.js](https://nextjs.org/), TypeScript, and Tailwind CSS.
+
+## Features
+
+- Responsive design
+- Hero section with profile image and bio
+- Projects showcase
+- Resume section
+- About page
+- API routes
+- UI components
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Yelsabawyy/Personal-Website.git
+   cd Personal-Website
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Update your personal data:**
+   - Edit the file at `data/site-data.json` and replace the example data with your own information (name, bio, images, etc.).
+
+4. **Configure environment variables:**
+   - Copy `.env.local.example` to `.env.local` (if available) and update the values to match your setup.
+
+### Development
+
+```sh
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm run build
+```
 
-## Learn More
+### Lint
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/` – Main application pages and components
+- `components/` – Reusable UI components
+- `data/` – Static data (JSON, etc.)
+- `lib/` – Utility libraries
+- `public/` – Static assets
+- `.next/` – Build output (generated)
+- `README.md` – Project documentation
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can deploy this project on [Vercel](https://vercel.com/) or any platform supporting Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to contribute or open issues!

@@ -10,6 +10,8 @@ export default function HeroSection() {
         <div className="relative bg-gray-100 flex items-center justify-center p-8">
           <div className="relative">
             <Image
+              width={400}
+              height={0}
               src={siteData.heroSection.myPicture}
               alt={siteData.name}
               className="w-full max-w-md h-[35vh] object-cover"
