@@ -1,12 +1,12 @@
 import ToggleComponent from "./components/toggleComponent";
-import Header from "./components/header";
+import HeroSection from "./components/heroSection";
 import { Mailing } from "./components/mailing";
 import AboutMe from "./components/about";
 
 export default function Home() {
   return (
     <div>
-      <Header/>
+      <HeroSection/>
       <AboutMe/>
       <ToggleComponent/>
       <Mailing/>

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Plus } from "lucide-react";
 import Footer from "./components/footer";
+import Header from "./components/header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,11 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-serif`}
       >
-        <div className="relative">
-          <button className="fixed top-8 right-8 w-12 h-12 bg-black rounded-full flex items-center justify-center hover:scale-110 transition-transform z-10">
-            <Plus className="w-6 h-6 text-white" />
-          </button>
-        </div>
+        <Header/>
         {children}
         <Footer />
       </body>
