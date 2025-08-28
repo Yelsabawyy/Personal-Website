@@ -1,0 +1,67 @@
+{
+  "name": "Youssef Elsabawy",
+  "heroSection": {
+    "myPicture": "",
+    "bio": "Versatile Full Stack Engineer shaping modern products and experiences that connect people, ideas, and technology.",
+    "happyClients": [
+      {
+        "pictureUrl": "/companies/Eontech.png",
+        "alt": "Eontech"
+      },
+      {
+        "pictureUrl": "/companies/Paintiro.png",
+        "alt": "Paintiro"
+      },
+      {
+        "pictureUrl": "/companies/Ingenium.png",
+        "alt": "Ingenium"
+      }
+    ]
+  },
+
+  "personalInfo": {
+    "name": "Youssef Elsabawy",
+    "title": "Frontend Developer",
+    "resumeLink": "/resume.pdf",
+    "email": "youssef@example.com",
+    "socialLinks": {
+      "github": "https://github.com/Yelsabawyy",
+      "linkedin": "https://linkedin.com/in/youssefelsabawy",
+      "instagram": "https://instagram.com/youssef"
+    }
+  },
+  "paintings": [
+    {
+      "id": "1",
+      "title": "Sunset",
+      "price": 200,
+      "picture": "/images/sunset.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Ocean",
+      "price": 350,
+      "picture": "/images/ocean.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Personal Portfolio",
+      "description": "A modern portfolio website built with Next.js and Tailwind CSS",
+      "link": "https://youssefelsabawy.com"
+    },
+    {
+      "id": "2",
+      "title": "E-commerce Store",
+      "description": "Full-stack online store with Next.js and MongoDB",
+      "link": "https://mystore.com"
+    }
+  ],
+  "navigation": [
+    { "name": "Home", "href": "/" },
+    { "name": "Paintings", "href": "/paintings" },
+    { "name": "Projects", "href": "/projects" },
+    { "name": "Contact", "href": "/contact" }
+  ]
+}

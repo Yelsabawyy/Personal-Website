@@ -3,6 +3,8 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
+import siteData from "@/data/site-data.json";
+
 
 export default function Header() {
   const pathname = usePathname();
@@ -27,7 +29,7 @@ export default function Header() {
             href="/"
             className="cursor-pointer text-sm border border-black bg-black text-white px-4 py-2 rounded-full font-medium hover:border-[#FAF3E9] transition-colors"
           >
-            Youssef Elsabawy
+            {siteData.name}
           </Link>
           <button className="text-sm border border-black text-black px-4 py-2 rounded-full font-medium transition-colors">
             {routeName}
