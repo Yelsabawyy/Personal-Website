@@ -1,4 +1,4 @@
-import ToggleComponent from "./components/toggleComponent";
+import ToggleComponent from "./components/serviceSection";
 import HeroSection from "./components/heroSection";
 import { Mailing } from "./components/mailing";
 import AboutMe from "./components/aboutSection";

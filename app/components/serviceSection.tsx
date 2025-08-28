@@ -2,39 +2,9 @@
 
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
+import siteData from "@/data/site-data.json";
 
-const services = [
-  {
-    title: "Brand Identity & Systems",
-    content:
-      "Comprehensive brand development from logo design to complete visual identity systems that establish your unique market presence.",
-  },
-  {
-    title: "Campaigns & Launches",
-    content:
-      "Strategic campaign development and product launch support that creates buzz and drives meaningful engagement with your audience.",
-  },
-  {
-    title: "Web & Digital Design",
-    content:
-      "Modern, responsive web design and digital experiences that convert visitors into customers and reflect your brand values.",
-  },
-  {
-    title: "Content & Creative Direction",
-    content:
-      "Strategic content creation and creative direction that tells your story authentically and connects with your target audience.",
-  },
-  {
-    title: "Events & Activations",
-    content:
-      "Memorable event experiences and brand activations that create lasting impressions and strengthen customer relationships.",
-  },
-  {
-    title: "Strategic Collaboration",
-    content:
-      "Long-term partnership approach to help your business grow through strategic design thinking and collaborative problem-solving.",
-  },
-];
+const services = siteData.serviceSection.services;
 
 export default function ToggleComponent() {
   const [expandedItems, setExpandedItems] = useState<Set<number>>(new Set());
@@ -57,17 +27,11 @@ export default function ToggleComponent() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-6xl font-light leading-tight text-balance">
-                Design, develop, and launch end-to-end.
+                {siteData.serviceSection.title}
               </h1>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-                <p>
-                  From the first line of code to a polished live product — I
-                  build websites that perform, scale, and inspire.
-                </p>
-                <p>
-                  Whether starting from scratch or transforming what exists, I
-                  craft digital experiences that deliver at every stage.
-                </p>
+                <p>{siteData.serviceSection.bio1}</p>
+                <p>{siteData.serviceSection.bio2}</p>
               </div>
             </div>
           </div>
@@ -83,7 +47,7 @@ export default function ToggleComponent() {
                   <span className="text-lg font-medium pr-4">
                     {service.title}
                   </span>
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-foreground flex items-center justify-center transition-transform group-hover:scale-110">
+                  <div className="flex-shrink-0 cursor-pointer w-8 h-8 rounded-full border border-foreground flex items-center justify-center transition-transform group-hover:scale-110">
                     {expandedItems.has(index) ? (
                       <Minus className="w-4 h-4" />
                     ) : (

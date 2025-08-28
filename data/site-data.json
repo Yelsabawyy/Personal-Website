@@ -30,38 +30,35 @@
     "reflection": "These experiences from sports to academics, military service, and professional work have shaped who I am today. They taught me discipline, curiosity, perseverance, and problem-solving. I am committed to continuous learning, personal growth, and making a positive impact through my work and life."
   },
 
-  "paintings": [
-    {
-      "id": "1",
-      "title": "Sunset",
-      "price": 200,
-      "picture": "/images/sunset.jpg"
-    },
-    {
-      "id": "2",
-      "title": "Ocean",
-      "price": 350,
-      "picture": "/images/ocean.jpg"
-    }
-  ],
-  "projects": [
-    {
-      "id": "1",
-      "title": "Personal Portfolio",
-      "description": "A modern portfolio website built with Next.js and Tailwind CSS",
-      "link": "https://youssefelsabawy.com"
-    },
-    {
-      "id": "2",
-      "title": "E-commerce Store",
-      "description": "Full-stack online store with Next.js and MongoDB",
-      "link": "https://mystore.com"
-    }
-  ],
-  "navigation": [
-    { "name": "Home", "href": "/" },
-    { "name": "Paintings", "href": "/paintings" },
-    { "name": "Projects", "href": "/projects" },
-    { "name": "Contact", "href": "/contact" }
-  ]
+  "serviceSection": {
+    "title": " Design, develop, and launch end-to-end.",
+    "bio1": "From the first line of code to a polished live product — I build websites that perform, scale, and inspire.",
+    "bio2": "Whether starting from scratch or transforming what exists, I craft digital experiences that deliver at every stag",
+    "services": [
+      {
+        "title": "Frontend Development",
+        "content": "Building responsive, interactive, and user-friendly web interfaces using React, Next.js, and modern frontend tools."
+      },
+      {
+        "title": "Backend Development",
+        "content": "Creating robust server-side applications with Node.js, Express, and database integration using MongoDB and SQL."
+      },
+      {
+        "title": "Full Stack Solutions",
+        "content": "Designing and delivering end-to-end web applications, handling both frontend and backend seamlessly."
+      },
+      {
+        "title": "UI/UX & Web Design",
+        "content": "Designing clean, modern, and intuitive user interfaces for websites and applications."
+      },
+      {
+        "title": "API Development & Integration",
+        "content": "Developing RESTful APIs and integrating third-party services to extend functionality."
+      },
+      {
+        "title": "Deployment & DevOps",
+        "content": "Deploying web applications to cloud platforms, setting up CI/CD pipelines, and optimizing performance."
+      }
+    ]
+  }
 }
