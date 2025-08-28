@@ -19,17 +19,17 @@
     ]
   },
 
-  "personalInfo": {
-    "name": "Youssef Elsabawy",
-    "title": "Frontend Developer",
-    "resumeLink": "/resume.pdf",
-    "email": "youssef@example.com",
-    "socialLinks": {
-      "github": "https://github.com/Yelsabawyy",
-      "linkedin": "https://linkedin.com/in/youssefelsabawy",
-      "instagram": "https://instagram.com/youssef"
-    }
+  "aboutSection": {
+    "whoIs": "Youssef",
+    "startYear": 2021,
+    "bio": "I’m Youssef Elsabawy, a Full Stack Engineer with {yearsOfExperience} of experience in both frontend and backend development, creating digital products that perform, scale, and inspire."
   },
+  "aboutPage": {
+    "whoIs": "Youssef Elsabawy",
+    "story": "I was born on 1st August 1999 in Alexandria, Egypt. From a young age, I developed a passion for basketball, playing actively from 6 to 16 years old, which taught me discipline, teamwork, and perseverance. In 2017, I began studying Computer Science, exploring programming and problem-solving, and graduated in 2021 with a solid foundation in technology. After graduation, I joined the Egyptian Army, serving in the Naval Security, where I gained resilience and the ability to perform under pressure. Following my service, I started my professional career at TechHive as a Full Stack Engineer, applying my skills to real-world projects and continuously growing as a developer.",
+    "reflection": "These experiences from sports to academics, military service, and professional work have shaped who I am today. They taught me discipline, curiosity, perseverance, and problem-solving. I am committed to continuous learning, personal growth, and making a positive impact through my work and life."
+  },
+
   "paintings": [
     {
       "id": "1",
