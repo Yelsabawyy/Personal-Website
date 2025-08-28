@@ -1,14 +1,13 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-
 export async function POST(req: Request) {
   try {
-    const { email } = await req.json();
+    const { fullName, subject, email, message } = await req.json();
 
-    if (!email) {
+    if (!fullName || !subject || !email || !message) {
       return NextResponse.json(
-        { message: "Email is required" },
+        { message: "All fields are required" },
         { status: 400 }
       );
     }
@@ -21,17 +20,42 @@ export async function POST(req: Request) {
       },
     });
 
+    // 1️⃣ Send email to YOU (with sender details)
     await transporter.sendMail({
-      from: `"Youssef Elsabawy" <${process.env.EMAIL_USER}>`,
-      to: email,
-      subject: "Test Authentication-App : Your OTP",
-      text: `Your OTP is: `,
-      html: `<p>Hello,</p><p>Your OTP is: <b></b></p>`,
+      from: `"Website Contact Form" <${process.env.EMAIL_USER}>`,
+      to: process.env.EMAIL_USER, // your email
+      subject: `New Message from ${fullName} - ${subject}`,
+      text: `
+You have received a new message from your website contact form:
+
+Name: ${fullName}
+Email: ${email}
+Subject: ${subject}
+Message:
+${message}
+      `,
     });
 
-    return NextResponse.json({ message: "OTP sent to email"}, { status: 200 });
+    // 2️⃣ Send email to SENDER (thank you message)
+    await transporter.sendMail({
+      from: `"Youssef Elsabawy" <${process.env.EMAIL_USER}>`,
+      to: email, // sender email
+      subject: "Thanks for contacting me!",
+      text: `Hi ${fullName},
+
+Thank you for reaching out. I have received your message regarding "${subject}" and will respond within 24 hours.
+
+Best regards,
+Youssef Elsabawy
+      `,
+    });
+
+    return NextResponse.json(
+      { message: "Emails sent successfully" },
+      { status: 200 }
+    );
   } catch (error) {
-    console.error("Forget OTP error:", error);
+    console.error("Contact form error:", error);
     return NextResponse.json({ message: "Server error" }, { status: 500 });
   }
 }
