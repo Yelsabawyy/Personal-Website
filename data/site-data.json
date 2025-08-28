@@ -84,6 +84,189 @@
       "url": "https://github.com/yelsabawyy",
       "icon": "github"
     }
+  ],
 
+  "resume": {
+    "personalInfo": {
+      "name": "Youssef Elsabawy",
+      "title": "Full Stack Developer",
+      "phone": "+201283230322",
+      "email": "yelsabawyy@gmail.com",
+      "linkedin": "https://linkedin.com/in/yelsabawyy",
+      "github": "https://github.com/yelsabawyy"
+    },
+    "skills": {
+      "languages": ["TypeScript", "JavaScript", "Java", "C++", "Python"],
+      "frontend": [
+        "React.js",
+        "Next.js",
+        "Angular.js",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Bootstrap"
+      ],
+      "apis": ["REST API", "GraphQL", "Socket.io", "JWT", "AJAX"],
+      "backend": ["Node.js", "Express", "Laravel", "ASP.NET Core"],
+      "databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+      "devopsCloud": ["Docker", "GIT", "AWS"]
+    },
+    "experience": [
+      {
+        "company": "Tech Hive",
+        "role": "Full Stack Developer",
+        "period": "Jan/2024 - Present",
+        "projects": [
+          {
+            "name": "Ingenium",
+            "url": "https://ingeniumpros.com",
+            "details": [
+              "Built 90% of the frontend for Ingenium, including dynamic calendars, milestone tracking, invoicing systems, notifications, and messaging features.",
+              "Developed 100% of the dashboard to provide comprehensive user control and insights.",
+              "Integrated backend APIs for real-time data synchronization across the platform."
+            ]
+          },
+          {
+            "name": "App ASAP",
+            "url": "https://appasap.app/",
+            "details": [
+              "Improved error monitoring for Terraform issues using AWS services.",
+              "Enhanced system reliability and streamlined troubleshooting."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "ITI (Information Technology Institute)",
+        "role": "Internship",
+        "period": "Jul 2023 – Nov 2023",
+        "details": [
+          "Developed the auction system, including triggers and functions to validate winning bids.",
+          "Handled 50% of both frontend and backend development using C# and .NET in an agile team."
+        ]
+      },
+      {
+        "company": "Alexandria Port Egypt",
+        "role": "Internship",
+        "period": "Aug 2019 – Sep 2019",
+        "details": [
+          "Worked with a team to normalize databases and improve data integrity.",
+          "Helped enhance database reliability and performance through normalization."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "university": "Alexandria University",
+        "period": "Sep 2017 – Jun 2021",
+        "gpa": "3.64 / 4.0"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Eontech",
+        "year": 2025,
+        "details": [
+          "Built 100% of the frontend for the company website using modern frameworks.",
+          "Contributed 50% to backend development and deployment processes.",
+          "Collaborated with team members to ensure smooth integration between frontend and backend.",
+          "Optimized deployment pipeline for faster and more reliable releases."
+        ]
+      },
+      {
+        "name": "Auction System",
+        "year": 2023,
+        "details": [
+          "Developed a robust auction system, fostering real-time bidding engagement.",
+          "Automated daily trigger for processing and updating completed auction statuses."
+        ]
+      },
+      {
+        "name": "Ecommerce (Paintiro)",
+        "year": 2022,
+        "details": [
+          "Implemented a visually appealing and responsive Artworks brand website, featuring real-time communication and enhanced user engagement through messaging.",
+          "Implemented a robust REST API for E-commerce, showcasing proficiency in effective data management."
+        ]
+      },
+      {
+        "name": "Mobile Application (Roaden)",
+        "year": 2021,
+        "details": [
+          "Implemented efficient backend functionality, ensuring scalability and reliability using MongoDB.",
+          "Developed an application with Flutter and Dart, prioritizing efficiency and seamless user experience."
+        ]
+      },
+      {
+        "name": "Ecommerce Website [Search by image engine] — Graduation Project",
+        "year": 2021,
+        "details": [
+          "Developed an E-commerce website with a seamless user experience using modern web technologies.",
+          "Implemented image search, Role Authorization, Data Validation, and real-time messaging with Socket."
+        ]
+      }
+    ],
+    "socialLinks": [
+      {
+        "name": "Email",
+        "url": "mailto:yelsabawyy@gmail.com",
+        "icon": "email",
+        "color": "white"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/yelsabawyy",
+        "icon": "linkedin",
+        "color": "#0A66C2"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/yelsabawyy",
+        "icon": "github",
+        "color": "white"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/YOUR_USERNAME",
+        "icon": "facebook",
+        "color": "#1877F2"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/YOUR_USERNAME",
+        "icon": "instagram",
+        "color": "#E4405F"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/YOUR_USERNAME",
+        "icon": "leetcode",
+        "color": "#FFA116"
+      },
+      {
+        "name": "Snapchat",
+        "url": "https://snapchat.com/add/YOUR_USERNAME",
+        "icon": "snapchat",
+        "color": "#FFFC00"
+      }
+    ]
+  },
+  "project": [
+    {
+      "url": "https://eontech.dev/",
+      "title": "Eontech.dev",
+      "Description": "A professional software company website based in the USA. I built 100% of the frontend and handled 50% of the backend and deployment, ensuring a responsive, scalable, and reliable platform."
+    },
+    {
+      "url": "https://paintiro.vercel.app/",
+      "title": "Paintiro",
+      "Description": "A full-stack E-commerce platform for selling paintings. I built 100% of the frontend and backend, including a powerful admin dashboard for managing artworks, users, and orders."
+    },
+    {
+      "url": "https://www.ingeniumpros.com/",
+      "title": "Ingenium pros",
+      "Description": "A freelancing and outsourcing platform similar to Upwork, designed to connect businesses with top talent across various industries. I developed 90% of the frontend, including interactive dashboards, milestone tracking, invoicing, notifications, and real-time messaging. I also integrated backend APIs to ensure smooth and reliable data synchronization, enhancing the overall user experience."
+    }
   ]
 }
