@@ -1,6 +1,6 @@
-import ToggleComponent from "./components/serviceSection";
+import ServicesSection from "./components/serviceSection";
 import HeroSection from "./components/heroSection";
-import { Mailing } from "./components/mailing";
+import { Mailing } from "./components/mailingSection";
 import AboutMe from "./components/aboutSection";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <HeroSection/>
       <AboutMe/>
-      <ToggleComponent/>
+      <ServicesSection/>
       <Mailing/>
     </div>
   );

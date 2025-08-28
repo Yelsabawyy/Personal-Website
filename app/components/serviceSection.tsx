@@ -6,7 +6,7 @@ import siteData from "@/data/site-data.json";
 
 const services = siteData.serviceSection.services;
 
-export default function ToggleComponent() {
+export default function ServicesSection() {
   const [expandedItems, setExpandedItems] = useState<Set<number>>(new Set());
 
   const toggleItem = (index: number) => {
