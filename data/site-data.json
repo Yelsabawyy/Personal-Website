@@ -61,5 +61,29 @@
         "content": "Deploying web applications to cloud platforms, setting up CI/CD pipelines, and optimizing performance."
       }
     ]
-  }
+  },
+
+  "socialLinks": [
+    {
+      "name": "Email",
+      "url": "mailto:yelsabawyy@gmail.com",
+      "icon": "email"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/youssef.elsabawy",
+      "icon": "facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/yelsabawyy",
+      "icon": "instagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yelsabawyy",
+      "icon": "github"
+    }
+
+  ]
 }
