@@ -71,7 +71,7 @@ export function Mailing() {
   return (
     <div className="bg-[#FAF3E9]">
       <div className="max-w-2xl mx-auto px-6 py-16 text-center">
-        <h1 className="text-5xl md:text-6xl font-serif mb-8 text-balance">
+        <h1 className="text-4xl md:text-6xl font-serif mb-8 text-balance">
           Let’s Stay in Touch
         </h1>
 
