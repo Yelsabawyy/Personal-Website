@@ -74,6 +74,11 @@ export default function Footer() {
               LinkedIn
             </button>
           </Link>
+          <Link href={"/projects"}>
+            <button className="cursor-pointer bg-white text-black px-4 py-2 rounded-full font-medium text-sm hover:bg-gray-100 transition-colors">
+              Projects
+            </button>
+          </Link>
           <Link href={"/resume"}>
             <button className="cursor-pointer border border-white text-white px-4 py-2 rounded-full font-medium text-sm hover:border-[#FAF3E9] transition-colors">
               Resume

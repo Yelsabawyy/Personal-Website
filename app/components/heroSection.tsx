@@ -37,7 +37,7 @@ export default function HeroSection() {
                 <Image
                   key={idx}
                   src={data.pictureUrl}
-                  width={110}
+                  width={data.width}
                   height={0}
                   alt={data.alt}
                 />

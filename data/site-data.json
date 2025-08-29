@@ -6,15 +6,23 @@
     "happyClients": [
       {
         "pictureUrl": "/companies/Eontech.png",
-        "alt": "Eontech"
+        "alt": "Eontech",
+        "width": 110
       },
       {
         "pictureUrl": "/companies/Paintiro.png",
-        "alt": "Paintiro"
+        "alt": "Paintiro",
+        "width": 110
       },
       {
         "pictureUrl": "/companies/Ingenium.png",
-        "alt": "Ingenium"
+        "alt": "Ingenium",
+        "width": 150
+      },
+      {
+        "pictureUrl": "/companies/Sentiomail.png",
+        "alt": "Sentiomail",
+        "width": 150
       }
     ]
   },
@@ -267,6 +275,11 @@
       "url": "https://www.ingeniumpros.com/",
       "title": "Ingenium pros",
       "Description": "A freelancing and outsourcing platform similar to Upwork, designed to connect businesses with top talent across various industries. I developed 90% of the frontend, including interactive dashboards, milestone tracking, invoicing, notifications, and real-time messaging. I also integrated backend APIs to ensure smooth and reliable data synchronization, enhancing the overall user experience."
+    },
+    {
+      "url": "https://email-messaging-system.vercel.app/",
+      "title": "Sentiomail",
+      "Description": "Email Messaging System, Send emails quickly and securely from My website with easy to use controls."
     }
   ]
 }
