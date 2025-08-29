@@ -27,14 +27,14 @@ export default function Resume() {
       <div className="max-w-4xl mx-auto px-6 py-12">
         {/* Header */}
         <div className="mb-12">
-          <div className="flex justify-between items-start mb-4">
+          <div className="flex space-y-4 flex-col md:flex-row md:justify-between items-start md:mb-4">
             <div>
               <h1 className="text-4xl font-bold text-black mb-2">
                 {personalInfo.name}
               </h1>
               <p className="text-xl text-gray-600">{personalInfo.title}</p>
             </div>
-            <div className="text-right text-sm space-y-1 text-gray-600">
+            <div className="text-left md:text-right text-sm space-y-1 text-gray-600">
               <p>{personalInfo.phone}</p>
               <p>{personalInfo.email}</p>
               <p>{personalInfo.linkedin}</p>
