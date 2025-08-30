@@ -5,29 +5,30 @@
     "bio": "Versatile Full Stack Engineer shaping modern products and experiences that connect people, ideas, and technology.",
     "happyClients": [
       {
-        "pictureUrl": "/companies/Eontech.png",
+        "pictureUrl": "https://files.catbox.moe/bc0ms5.png",
         "alt": "Eontech",
         "width": 110
       },
       {
-        "pictureUrl": "/companies/goinvoice.png",
+        "pictureUrl": "https://files.catbox.moe/gcxrlr.png",
         "alt": "goinvoice",
-        "width": 120
+        "width": 125
       },
       {
-        "pictureUrl": "/companies/Paintiro.png",
+        "pictureUrl": "https://files.catbox.moe/hqz9ch.png",
         "alt": "Paintiro",
         "width": 110
       },
       {
-        "pictureUrl": "/companies/Ingenium.png",
+        "pictureUrl": "https://files.catbox.moe/zwfzkj.png",
         "alt": "Ingenium",
-        "width": 150
+        "width": 120
       },
       {
-        "pictureUrl": "/companies/Sentiomail.png",
+        "pictureUrl": "https://files.catbox.moe/qxdw19.png",
         "alt": "Sentiomail",
-        "width": 150
+        "width": 155,
+        "class": "-mt-4"
       }
     ]
   },

@@ -30,21 +30,63 @@ export default function HeroSection() {
             </p>
           </div>
         </div>
-        <div className="bg-black py-7 px-8 lg:px-16">
-          <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-14">
-            {siteData.heroSection.happyClients.map((data, idx) => {
-              return (
-                <Image
-                  key={idx}
-                  src={data.pictureUrl}
-                  width={data.width}
-                  height={0}
-                  alt={data.alt}
-                />
-              );
-            })}
+        <section className="bg-black py-7 md:py-5 px-8 lg:px-16 overflow-hidden">
+          <div className="relative">
+            {/* Scrolling container */}
+            <div className="flex animate-scroll space-x-9 md:space-x-28">
+              {/* First set of logos */}
+              <div className="flex items-center justify-center gap-14 lg:gap-28 min-w-max">
+                {siteData.heroSection.happyClients.map((data, idx) => {
+                  return (
+                    <Image
+                      key={idx}
+                      src={data.pictureUrl}
+                      width={data.width}
+                      height="0"
+                      alt={data.alt}
+                      className={`${data?.class} flex-shrink-0 h-auto`}
+                    />
+                  );
+                })}
+              </div>
+
+              {/* Duplicate set for seamless loop */}
+              <div className="flex items-center justify-center gap-14 lg:gap-28 min-w-max">
+                {siteData.heroSection.happyClients.map((data, idx) => {
+                  return (
+                    <Image
+                      key={`duplicate-${idx}`}
+                      src={data.pictureUrl}
+                      width={data.width}
+                      height="0"
+                      alt={data.alt}
+                      className={`${data?.class} flex-shrink-0 h-auto`}
+                    />
+                  );
+                })}
+              </div>
+            </div>
           </div>
-        </div>
+          <style jsx>{`
+            @keyframes scroll {
+              0% {
+                transform: translateX(0);
+              }
+              100% {
+                transform: translateX(-50%);
+              }
+            }
+
+            .animate-scroll {
+              animation: scroll 10s linear infinite;
+            }
+            @media (min-width: 768px) {
+              .animate-scroll {
+                animation: scroll 30s linear infinite;
+              }
+            }
+          `}</style>
+        </section>
       </div>
     </div>
   );
