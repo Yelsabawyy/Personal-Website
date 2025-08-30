@@ -121,7 +121,7 @@ export default function Resume() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-2xl font-bold text-black mb-6">Projects</h2>
+          <h2 className="text-2xl font-bold text-black mb-6">Selected Projects</h2>
           <div className="space-y-6">
             {projects.map((proj, idx) => (
               <div key={idx}>

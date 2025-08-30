@@ -39,9 +39,25 @@
   },
   "aboutPage": {
     "whoIs": "Youssef Elsabawy",
-    "story": "I was born on 1st August 1999 in Alexandria, Egypt. From a young age, I developed a passion for basketball, playing actively from 6 to 16 years old, which taught me discipline, teamwork, and perseverance. In 2017, I began studying Computer Science, exploring programming and problem-solving, and graduated in 2021 with a solid foundation in technology. After graduation, I joined the Egyptian Army, serving in the Naval Security, where I gained resilience and the ability to perform under pressure. Following my service, I started my professional career at TechHive as a Full Stack Engineer, applying my skills to real-world projects and continuously growing as a developer.",
-    "reflection": "These experiences from sports to academics, military service, and professional work have shaped who I am today. They taught me discipline, curiosity, perseverance, and problem-solving. I am committed to continuous learning, personal growth, and making a positive impact through my work and life.",
-    "Technical": "I am a highly skilled Full Stack Software Engineer specializing in frontend and backend development, with extensive experience building modern web applications and digital products. I have successfully developed and delivered numerous projects, from responsive websites to complex full-stack applications, integrating APIs, databases, and cloud services. My expertise includes TypeScript, JavaScript, React, Next.js, Node.js, Express, and database management with MySQL, PostgreSQL, and MongoDB. I excel in problem-solving, clean coding practices, and creating scalable, maintainable, and high-performance software solutions."
+    "story": [
+      "My name is Youssef Elsabawy, born and raised in Alexandria, Egypt.",
+      "I studied at Victory College School, where I graduated in 2017 with a strong academic foundation.",
+      "From the age of 6 until 16, I played basketball at Alexandria Sporting Club.",
+      "I pursued my higher education at Alexandria University, majoring in Computer Science. In 2021, I graduated as one of the top 10 students in my class.",
+      "After graduation, I served in the Egyptian Army, where I was assigned to Naval Security.",
+      "Following my military service, I started my professional journey in the technology field as a Full Stack Engineer."
+    ],
+    "reflection": "My journey through sports, academics, military service, and professional work has shaped my character and values. I’ve learned discipline, perseverance, and adaptability, and I remain dedicated to growing, learning, and contributing positively in everything I do.",
+    "Technical": [
+      "• SQL Database Internship at Alexandria Port",
+      "• Software Engineering Internship at RMZ Tech",
+      "• Full Stack Internship at ITI (1 month)",
+      "• Graduation Project: E-commerce platform with image search functionality",
+      "• Developed Roaden Mobile Application (project paused due to funding)",
+      "• Full Stack Internship at ITI (3 months)",
+      "• Solved 300+ algorithm and coding problems on LeetCode",
+      "• Full-time Full Stack Engineer at Techhive"
+    ]
   },
 
   "serviceSection": {
@@ -122,7 +138,7 @@
       "apis": ["REST API", "GraphQL", "Socket.io", "JWT", "AJAX"],
       "backend": ["Node.js", "Express", "Laravel", "ASP.NET Core"],
       "databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-      "devopsCloud": ["Docker", "GIT", "AWS"]
+      "devopsCloud": ["Docker", "GIT", "AWS", "Backblaze B2"]
     },
     "experience": [
       {
@@ -191,32 +207,40 @@
         "name": "Auction System",
         "year": 2023,
         "details": [
-          "Developed a robust auction system, fostering real-time bidding engagement.",
-          "Automated daily trigger for processing and updating completed auction statuses."
+          "Developed a robust auction system to enable real-time bidding engagement.",
+          "Automated daily triggers to process and update completed auction statuses.",
+          "Built using C# .NET and SQL for the backend, and Angular for the frontend."
         ]
       },
       {
-        "name": "Ecommerce (Paintiro)",
+        "name": "Paintiro",
         "year": 2022,
         "details": [
-          "Implemented a visually appealing and responsive Artworks brand website, featuring real-time communication and enhanced user engagement through messaging.",
-          "Implemented a robust REST API for E-commerce, showcasing proficiency in effective data management."
+          "Built with React, Next.js, Node.js, and MongoDB (full front-end and back-end).",
+          "Developed a complete e-commerce system for selling paintings.",
+          "Created an admin dashboard to manage orders, paintings, and promo codes.",
+          "Implemented an integrated email messaging system for customer communication.",
+          "Integrated Backblaze B2 for cloud storage and data management."
         ]
       },
       {
-        "name": "Mobile Application (Roaden)",
+        "name": "Roaden",
         "year": 2021,
         "details": [
-          "Implemented efficient backend functionality, ensuring scalability and reliability using MongoDB.",
-          "Developed an application with Flutter and Dart, prioritizing efficiency and seamless user experience."
+          "Contributed as part of a development team to build a car-booking app (similar to Uber) with unique features.",
+          "Implemented efficient backend functionality using MongoDB, ensuring scalability and reliability.",
+          "Developed the mobile application with Flutter and Dart, delivering a smooth and user-friendly experience.",
+          "Utilized AWS for cloud storage and infrastructure support.",
+          "Integrated image processing to optimize and reduce uploaded document size."
         ]
       },
       {
-        "name": "Ecommerce Website [Search by image engine] — Graduation Project",
+        "name": "Graduation Project",
         "year": 2021,
         "details": [
-          "Developed an E-commerce website with a seamless user experience using modern web technologies.",
-          "Implemented image search, Role Authorization, Data Validation, and real-time messaging with Socket."
+          "Built a full-featured e-commerce website supporting complete CRUD operations across product categories.",
+          "Developed an admin dashboard for managing products, users, and orders.",
+          "Integrated an AI-based model enabling users to search for products by uploading an image, returning exact or similar product matches."
         ]
       }
     ],
@@ -293,8 +317,5 @@
       "Description": "Create Invoice then Download PDF",
       "github": "https://github.com/Yelsabawyy/Generate-Invoice-PDF"
     }
-
   ]
 }
-
-
