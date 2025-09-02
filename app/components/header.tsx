@@ -59,6 +59,7 @@ export default function Header() {
         <div className="flex justify-between p-4">
           <Link
             href="/"
+            onClick={() => setDrawerOpen(false)}
             className="cursor-pointer text-sm border border-black bg-black text-white px-4 py-2 rounded-full font-medium hover:border-[#FAF3E9] transition-colors"
           >
             {siteData.name}
