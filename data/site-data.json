@@ -322,6 +322,11 @@
       "title": "Go-Invoice",
       "Description": "Create Invoice then Download PDF",
       "github": "https://github.com/Yelsabawyy/Generate-Invoice-PDF"
+    },
+    {
+      "url": "https://typing-speed-blue.vercel.app/",
+      "title": "Typing-speed",
+      "Description": "Typing Speed per Minute (WPM) refers to how many words a person can type correctly within one minute"
     }
   ]
 }
