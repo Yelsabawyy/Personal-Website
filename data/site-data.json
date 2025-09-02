@@ -308,6 +308,11 @@
       "Description": "A freelancing and outsourcing platform similar to Upwork, designed to connect businesses with top talent across various industries. I developed 90% of the frontend, including interactive dashboards, milestone tracking, invoicing, notifications, and real-time messaging. I also integrated backend APIs to ensure smooth and reliable data synchronization, enhancing the overall user experience."
     },
     {
+      "url": "https://qshare-rouge.vercel.app/",
+      "title": "Qshare",
+      "Description": "Create quizzes easily, assign them to an email or make them public. Generate a unique link so anyone can answer. Also no account required."
+    },
+    {
       "url": "https://email-messaging-system.vercel.app/",
       "title": "Sentiomail",
       "Description": "Email Messaging System, Send emails quickly and securely from My website with easy to use controls."
