@@ -56,7 +56,13 @@ export default function Header() {
         }`}
       >
         {/* Close Button */}
-        <div className="flex justify-end p-4">
+        <div className="flex justify-between p-4">
+          <Link
+            href="/"
+            className="cursor-pointer text-sm border border-black bg-black text-white px-4 py-2 rounded-full font-medium hover:border-[#FAF3E9] transition-colors"
+          >
+            {siteData.name}
+          </Link>
           <button onClick={() => setDrawerOpen(false)}>
             <X className="w-6 h-6 text-black cursor-pointer" />
           </button>
@@ -95,7 +101,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
-              {iconMap[link.icon]?.("#1e2939")}
+                {iconMap[link.icon]?.("#1e2939")}
               </a>
             ))}
           </div>
