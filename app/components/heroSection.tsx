@@ -8,7 +8,7 @@ export default function HeroSection() {
     <div className="bg-white">
       {/* Hero Section */}
       <div className="grid">
-        <div className="relative bg-gray-100 flex items-center justify-center p-8">
+        {/* <div className="relative bg-gray-100 flex items-center justify-center p-8">
           <div className="relative">
             <Image
               width={400}
@@ -18,7 +18,7 @@ export default function HeroSection() {
               className="w-full max-w-md h-[35vh] object-cover"
             />
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col justify-center p-8 bg-white">
           <div className="max-w-lg">
