@@ -29,6 +29,12 @@
         "alt": "Sentiomail",
         "width": 155,
         "class": "-mt-4"
+      },
+      {
+        "pictureUrl": "https://files.catbox.moe/82ad5x.png",
+        "alt": "Joumana Co",
+        "width": 160,
+        "class": ""
       }
     ]
   },
@@ -272,13 +278,13 @@
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/YOUR_USERNAME",
+        "url": "https://instagram.com/yelsabawyy",
         "icon": "instagram",
         "color": "#E4405F"
       },
       {
         "name": "LeetCode",
-        "url": "https://leetcode.com/YOUR_USERNAME",
+        "url": "https://leetcode.com/yelsabawyy",
         "icon": "leetcode",
         "color": "#FFA116"
       },
@@ -306,6 +312,11 @@
       "url": "https://www.ingeniumpros.com/",
       "title": "Ingenium pros",
       "Description": "A freelancing and outsourcing platform similar to Upwork, designed to connect businesses with top talent across various industries. I developed 90% of the frontend, including interactive dashboards, milestone tracking, invoicing, notifications, and real-time messaging. I also integrated backend APIs to ensure smooth and reliable data synchronization, enhancing the overall user experience."
+    },
+    {
+      "url": "https://joumana.vercel.app/",
+      "title": "Joumana Co",
+      "Description": "Joumana Co. has been a trusted name in sheep casing craftsmanship for over 75 years, proudly serving global clients with quality and tradition. I personally handled 100% of the website design and development, ensuring a modern and professional online presence."
     },
     {
       "url": "https://qshare-rouge.vercel.app/",
