@@ -4,6 +4,7 @@ import "./globals.css";
 import { Plus } from "lucide-react";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,8 @@ export default function RootLayout({
         <Header/>
         {children}
         <Footer />
+        <SpeedInsights />
+
       </body>
     </html>
   );
