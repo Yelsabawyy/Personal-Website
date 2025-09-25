@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import siteData from "@/data/site-data.json";
 import { iconMap } from "./footer";
+import Image from "next/image";
 
 export default function Header() {
   const pathname = usePathname();
@@ -93,7 +94,16 @@ export default function Header() {
             Resume
           </Link>
 
-          <div className="flex flex-wrap gap-6 mt-12">
+          <div className="flex flex-wrap gap-6 mt-12 items-center">
+            <div>
+              {/* <Image
+                src="/icon.png"
+                alt="Logo"
+                width={30}
+                height={30}
+                className="rounded-md"
+              /> */}
+            </div>
             {siteData.socialLinks.map((link) => (
               <a
                 key={link.name}

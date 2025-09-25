@@ -2,7 +2,7 @@
   "name": "Youssef Elsabawy",
   "heroSection": {
     "myPicture": "",
-    "bio": "Versatile Full Stack Engineer shaping modern products and experiences that connect people, ideas, and technology.",
+    "bio": "I provide end to end website development services, from initial design to final deployment. My focus is on delivering responsive, reliable, and professional web solutions.",
     "happyClients": [
       {
         "pictureUrl": "https://files.catbox.moe/bc0ms5.png",
@@ -41,8 +41,8 @@
 
   "aboutSection": {
     "whoIs": "Youssef",
-    "startYear": 2021,
-    "bio": "I’m Youssef Elsabawy, a Full Stack Engineer with {yearsOfExperience} of experience in both frontend and backend development, creating digital products that perform, scale, and inspire."
+    "startYear": 2022,
+    "bio": "I’m Youssef Elsabawy, a web developer with over {yearsOfExperience} years of experience. I specialize in creating complete websites from scratch starting with modern, responsive designs, developing clean and functional code, and deploying fully optimized websites ready for users."
   },
   "aboutPage": {
     "whoIs": "Youssef Elsabawy",
@@ -68,33 +68,33 @@
   },
 
   "serviceSection": {
-    "title": " Design, develop, and launch end-to-end.",
-    "bio1": "From the first line of code to a polished live product — I build websites that perform, scale, and inspire.",
-    "bio2": "Whether starting from scratch or transforming what exists, I craft digital experiences that deliver at every stag",
+    "title": "Design, develop, and launch end to end",
+    "bio1": "From the first line of code to a polished live product, I build websites that perform, scale, and inspire.",
+    "bio2": "Whether starting from scratch or improving an existing project, I craft digital experiences that deliver at every stage.",
     "services": [
       {
+        "title": "UI/UX & Web Design",
+        "content": "Creating clean, modern, and intuitive designs that focus on user experience and usability."
+      },
+      {
         "title": "Frontend Development",
-        "content": "Building responsive, interactive, and user-friendly web interfaces using React, Next.js, and modern frontend tools."
+        "content": "Building responsive, interactive, and user friendly interfaces using React, Next.js, and modern frontend tools."
       },
       {
         "title": "Backend Development",
-        "content": "Creating robust server-side applications with Node.js, Express, and database integration using MongoDB and SQL."
+        "content": "Developing robust server side applications with Node.js, Express, and database solutions like MongoDB and SQL."
       },
       {
-        "title": "Full Stack Solutions",
-        "content": "Designing and delivering end-to-end web applications, handling both frontend and backend seamlessly."
-      },
-      {
-        "title": "UI/UX & Web Design",
-        "content": "Designing clean, modern, and intuitive user interfaces for websites and applications."
+        "title": "Full Stack Development",
+        "content": "Delivering complete end to end web applications by seamlessly integrating frontend and backend systems."
       },
       {
         "title": "API Development & Integration",
-        "content": "Developing RESTful APIs and integrating third-party services to extend functionality."
+        "content": "Creating secure RESTful APIs and integrating third party services to extend functionality and connectivity."
       },
       {
         "title": "Deployment & DevOps",
-        "content": "Deploying web applications to cloud platforms, setting up CI/CD pipelines, and optimizing performance."
+        "content": "Deploying applications to cloud platforms, setting up CI/CD pipelines, and optimizing for speed, scalability, and performance."
       }
     ]
   },

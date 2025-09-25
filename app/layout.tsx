@@ -18,7 +18,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Youssef Elsabawy",
-  description: "Full Stack Engineer - Personal Profile",
+  description: "Create Website Egypt",
+  // icons: {
+  //   icon: "/icon.png",
+  // },
 };
 
 export default function RootLayout({
@@ -35,7 +38,6 @@ export default function RootLayout({
         {children}
         <Footer />
         <SpeedInsights />
-
       </body>
     </html>
   );

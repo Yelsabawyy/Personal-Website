@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { JSX } from "react";
 import siteData from "@/data/site-data.json";
+import Image from "next/image";
 
 export const iconMap: Record<string, (color?: string) => JSX.Element> = {
   email: (color = "white") => (
@@ -61,11 +62,18 @@ export default function Footer() {
           ))}
         </div>
       </div>
+      <Image
+        src="/icon.png"
+        alt="Logo"
+        width={70}
+        height={0}
+        className="rounded-md mb-1"
+      />
 
       {/* Footer */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
         <p className="text-white/60 text-sm">
-          {new Date().getFullYear()}© Youssef Elsabawy
+          {new Date().getFullYear()} © Youssef Elsabawy
         </p>
 
         <div className="flex gap-4">

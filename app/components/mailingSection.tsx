@@ -76,7 +76,7 @@ export function Mailing() {
         </h1>
 
         <p className="text-lg text-muted-foreground mb-12 max-w-xl mx-auto leading-relaxed">
-          Got an idea, a project, or just want to say hi? Drop me a message —
+          Got an idea, a project, or just want to say hi? Drop me a message,
           I’d love to hear from you.
         </p>
 
