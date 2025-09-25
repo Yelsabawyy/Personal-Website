@@ -66,7 +66,7 @@ export default function Footer() {
         src="https://files.catbox.moe/v5d8jd.png"
         alt="icon"
         width={70}
-        height={0}
+        height={70}
         className="rounded-md mb-1"
       />
 
