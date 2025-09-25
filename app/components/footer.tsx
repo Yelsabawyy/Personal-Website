@@ -63,8 +63,8 @@ export default function Footer() {
         </div>
       </div>
       <Image
-        src="/icon.png"
-        alt="Logo"
+        src="https://files.catbox.moe/v5d8jd.png"
+        alt="icon"
         width={70}
         height={0}
         className="rounded-md mb-1"
