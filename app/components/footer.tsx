@@ -67,6 +67,8 @@ export default function Footer() {
         alt="icon"
         width={70}
         height={70}
+          className="rounded-md mb-1"
+
         unoptimized
       />
 
