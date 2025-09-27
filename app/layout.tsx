@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Plus } from "lucide-react";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -19,11 +18,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Youssef Elsabawy",
   description: "Create Website Egypt",
+
+  // Disable Open Graph preview
   openGraph: {
-    title: "Youssef Elsabawy",
-    description:
-      "Youssef Elsabawy is a professional software engineer specializing in creating modern, high performance websites and applications. He focuses on delivering scalable and user centric solutions for businesses in Egypt and worldwide, with a strong passion for clean code, seamless user experiences, and innovative digital products.",
+    title: "",
+    description: "",
+    images: [],
   },
+
+  // Disable Twitter card preview
+  twitter: {
+    card: "none",
+  },
+
   robots: {
     index: true,
     follow: true,
@@ -41,7 +48,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-serif`}
       >
-        <Header/>
+        <Header />
         {children}
         <Footer />
         <SpeedInsights />
