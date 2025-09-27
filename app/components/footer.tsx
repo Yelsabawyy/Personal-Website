@@ -62,16 +62,24 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <Image
-        src="https://files.catbox.moe/v5d8jd.png"
-        alt="icon"
-        width={70}
-        height={70}
+      <div className="flex flex-row justify-start gap-2">
+        <Image
+          src="https://files.catbox.moe/v5d8jd.png"
+          alt="icon"
+          width={70}
+          height={70}
           className="rounded-md mb-1"
-
-        unoptimized
-      />
-
+          unoptimized
+        />
+        <Image
+          src="https://files.catbox.moe/11ssyp.png"
+          alt="icon"
+          width={70}
+          height={70}
+          className="rounded-md mb-1"
+          unoptimized
+        />
+      </div>
       {/* Footer */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
         <p className="text-white/60 text-sm">
