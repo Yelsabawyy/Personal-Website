@@ -15,24 +15,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Youssef Elsabawy",
   description: "Create Website Egypt",
-
-  openGraph: undefined,
-
-  twitter: {
-    card: "summary",
-    images: [],
-    title: "",
-    description: "",
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-    noimageindex: true,
-  },
 };
 
 
