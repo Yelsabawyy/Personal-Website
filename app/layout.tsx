@@ -15,19 +15,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+// ✅ Minimal metadata: only SEO title + description
+export const metadata: Metadata = {
   title: "Youssef Elsabawy",
   description: "Create Website Egypt",
+  // remove openGraph, twitter, robots — Next.js will not output OG tags
 };
-
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Optional: force no index for social crawlers, just in case */}
+        <meta name="robots" content="index, follow, noimageindex" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-serif`}
       >
