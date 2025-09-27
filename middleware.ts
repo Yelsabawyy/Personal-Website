@@ -15,7 +15,10 @@ export function middleware(request: NextRequest) {
     'skypeuripreview',
     'discordbot',
     'slackbot',
-    'applebot'
+    'applebot',
+    'instagram',
+    'facebookbot',
+    'meta-external-agent'
   ]
   
   // Check if request is from a social media crawler
@@ -24,27 +27,10 @@ export function middleware(request: NextRequest) {
   )
   
   if (isSocialCrawler) {
-    // Option 1: Return 404 to block crawlers completely
-    // return new NextResponse('Not Found', { status: 404 })
-    
-    // Option 2: Return minimal HTML without metadata
-    const minimalHTML = `
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <title>Youssef Elsabawy</title>
-          <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
-        </head>
-        <body>
-          <p>Content not available for preview</p>
-        </body>
-      </html>
-    `
-    
-    return new NextResponse(minimalHTML, {
-      status: 200,
+    // Return 404 to completely block social media crawlers
+    return new NextResponse('Not Found', { 
+      status: 404,
       headers: {
-        'content-type': 'text/html',
         'x-robots-tag': 'noindex, nofollow, noarchive, nosnippet, noimageindex'
       }
     })
