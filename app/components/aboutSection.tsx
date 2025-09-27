@@ -19,7 +19,7 @@ export default function AboutMe() {
           {/* Left Content */}
           <div className="space-y-8 text-left text-black">
             <h1 className="text-4xl md:text-6xl font-light leading-tight">
-              {`Who's ${siteData.aboutSection.whoIs}?`}
+              {`Who's ${siteData.aboutSection.whoIs} ?`}
             </h1>
             <div className="space-y-6 max-w-lg leading-12 text-lg opacity-90">
               {bioParts[0]}
