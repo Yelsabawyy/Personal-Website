@@ -5,7 +5,9 @@ import type { NextRequest } from 'next/server'
 export function middleware(request: NextRequest) {
   const userAgent = request.headers.get('user-agent')?.toLowerCase() || ''
   
-  // List of social media crawlers to block or return minimal content
+  console.log('User Agent:', userAgent) // Debug log
+  
+  // List of specific social media crawlers to block
   const socialCrawlers = [
     'facebookexternalhit',
     'twitterbot',
@@ -15,19 +17,26 @@ export function middleware(request: NextRequest) {
     'skypeuripreview',
     'discordbot',
     'slackbot',
-    'applebot',
-    'instagram',
     'facebookbot',
-    'meta-external-agent'
+    'meta-external-agent',
+    'instagrambot'
   ]
   
-  // Check if request is from a social media crawler
+  // More precise detection - only block if user agent contains these specific strings
   const isSocialCrawler = socialCrawlers.some(crawler => 
     userAgent.includes(crawler)
   )
   
-  if (isSocialCrawler) {
-    // Return 404 to completely block social media crawlers
+  // Additional check: exclude normal browsers
+  const isBrowser = userAgent.includes('mozilla') || 
+                   userAgent.includes('chrome') || 
+                   userAgent.includes('safari') || 
+                   userAgent.includes('firefox') || 
+                   userAgent.includes('edge')
+  
+  // Only block if it's a social crawler AND not a regular browser
+  if (isSocialCrawler && !isBrowser) {
+    console.log('Blocking social crawler:', userAgent) // Debug log
     return new NextResponse('Not Found', { 
       status: 404,
       headers: {
