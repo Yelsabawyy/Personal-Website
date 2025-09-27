@@ -19,16 +19,13 @@ export const metadata: Metadata = {
   title: "Youssef Elsabawy",
   description: "Create Website Egypt",
 
-  // Disable Open Graph preview
-  openGraph: {
+  openGraph: undefined,
+
+  twitter: {
+    card: "summary",
+    images: [],
     title: "",
     description: "",
-    images: [],
-  },
-
-  // Disable Twitter card preview
-  twitter: {
-    card: "none",
   },
 
   robots: {
@@ -37,6 +34,7 @@ export const metadata: Metadata = {
     noimageindex: true,
   },
 };
+
 
 export default function RootLayout({
   children,
