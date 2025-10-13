@@ -5,35 +5,37 @@
     "bio": "I provide end to end website development services, from initial design to final deployment. My focus is on delivering responsive, reliable, and professional web solutions.",
     "happyClients": [
       {
-        "pictureUrl": "https://files.catbox.moe/bc0ms5.png",
-        "alt": "Eontech",
-        "width": 110
-      },
-      {
-        "pictureUrl": "https://files.catbox.moe/gcxrlr.png",
-        "alt": "goinvoice",
-        "width": 125
-      },
-      {
-        "pictureUrl": "https://files.catbox.moe/hqz9ch.png",
+        "pictureUrl": "/1.webp",
         "alt": "Paintiro",
-        "width": 110
-      },
-      {
-        "pictureUrl": "https://files.catbox.moe/zwfzkj.png",
-        "alt": "Ingenium",
         "width": 120
       },
       {
-        "pictureUrl": "https://files.catbox.moe/qxdw19.png",
+        "pictureUrl": "/2.webp",
+
+        "alt": "goinvoice",
+        "width": 130
+      },
+      {
+        "pictureUrl": "/3.webp",
+
+        "alt": "Eontech",
+        "width": 120
+      },
+      {
+        "pictureUrl": "/4.webp",
+        "alt": "Joumana Co",
+        "width": 150
+      },
+      {
+        "pictureUrl": "/5.webp",
         "alt": "Sentiomail",
-        "width": 155,
+        "width": 140,
         "class": "-mt-4"
       },
       {
-        "pictureUrl": "https://files.catbox.moe/82ad5x.png",
-        "alt": "Joumana Co",
-        "width": 160,
+        "pictureUrl": "/6.webp",
+        "alt": "Ingenium Pros",
+        "width": 125,
         "class": ""
       }
     ]
