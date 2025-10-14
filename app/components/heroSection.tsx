@@ -32,9 +32,17 @@ export default function HeroSection() {
         </div>
 
         {/* Infinite Scrolling Section */}
-        {/* <section className="bg-black py-7 md:py-5 px-8 lg:px-16 overflow-hidden">
+       {/* <HappyClient/> */}
+      </div>
+    </div>
+  );
+}
+
+
+export function HappyClient() {
+  return (
+    <section className="bg-black py-7 md:py-5 px-8 lg:px-16 overflow-hidden">
           <div className="flex animate-infinite-scroll gap-14 lg:gap-28 min-w-max">
-            {/* Duplicate the set of clients twice for seamless scroll */}
             {[...Array(200)].map((_, setIndex) => (
               <div
                 key={setIndex}
@@ -75,8 +83,6 @@ export default function HeroSection() {
               }
             }
           `}</style>
-        </section> */}
-      </div>
-    </div>
-  );
+        </section> 
+  )
 }
