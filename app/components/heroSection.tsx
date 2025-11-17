@@ -32,7 +32,7 @@ export default function HeroSection() {
         </div>
 
         {/* Infinite Scrolling Section */}
-       {/* <HappyClient/> */}
+       <HappyClient/>
       </div>
     </div>
   );
@@ -48,16 +48,55 @@ export function HappyClient() {
                 key={setIndex}
                 className="flex items-center gap-14 lg:gap-28 min-w-max"
               >
-                {siteData.heroSection.happyClients.map((client, idx) => (
-                  <Image
-                    key={`client-${setIndex}-${idx}`}
-                    src={client.pictureUrl}
-                    width={client.width}
+                <Image
+                    src={'/1.webp'}
+                    width={120}
                     height={0}
-                    alt={client.alt}
-                    className={`${client?.class} flex-shrink-0 h-auto`}
+                    alt={'Paintiro'}
+                    className={`flex-shrink-0 h-auto`}
                   />
-                ))}
+                <Image
+                    src={'/2.webp'}
+                    width={130}
+                    height={0}
+                    alt={'goinvoice'}
+                    className={`flex-shrink-0 h-auto`}
+                  />
+                <Image
+                    src={'/3.webp'}
+                    width={120}
+                    height={0}
+                    alt={'Eontech'}
+                    className={`flex-shrink-0 h-auto`}
+                  />
+                <Image
+                    src={'/4.webp'}
+                    width={150}
+                    height={0}
+                    alt={'Joumana Co'}
+                    className={`flex-shrink-0 h-auto`}
+                  />
+                <Image
+                    src={'/5.webp'}
+                    width={140}
+                    height={0}
+                    alt={'Sentiomail'}
+                    className={`-mt-4 flex-shrink-0 h-auto`}
+                  />
+                <Image
+                    src={'/6.webp'}
+                    width={125}
+                    height={0}
+                    alt={'Ingenium Pros'}
+                    className={`mt-1 flex-shrink-0 h-auto`}
+                  />
+                <Image
+                    src={'/7.png'}
+                    width={60}
+                    height={0}
+                    alt={'laser'}
+                    className={` flex-shrink-0 h-auto`}
+                  />
               </div>
             ))}
           </div>

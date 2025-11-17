@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea"; // Make sure you have this component
 import { useState } from "react";
+import Image from "next/image";
 
 // Define Zod schema including message
 const mailingSchema = z.object({
@@ -71,13 +72,22 @@ export function Mailing() {
   return (
     <div className="bg-[#FAF3E9]">
       <div className="max-w-2xl mx-auto px-6 py-16 text-center">
+        <div className="absolute -mt-24">
+          <Image
+            src={"/smile.png"}
+            width={60}
+            height={0}
+            alt={"smile"}
+            className={`mt-1 flex-shrink-0 h-auto`}
+          />
+        </div>
         <h1 className="text-4xl md:text-6xl font-serif mb-8 text-balance">
           Let’s Stay in Touch
         </h1>
 
         <p className="text-lg text-muted-foreground mb-12 max-w-xl mx-auto leading-relaxed">
-          Got an idea, a project, or just want to say hi? Drop me a message,
-          I’d love to hear from you.
+          Got an idea, a project, or just want to say hi? Drop me a message, I’d
+          love to hear from you.
         </p>
 
         <form
