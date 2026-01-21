@@ -2,7 +2,8 @@
   "name": "Youssef Elsabawy",
   "heroSection": {
     "myPicture": "",
-    "bio": "I provide end to end website development services, from initial design to final deployment. My focus is on delivering responsive, reliable, and professional web solutions.",
+    "bio": "Caught you! <strong>Need a website</strong> or <strong>want to connect</strong>? Send me a message in the contact section below.",
+    "oldBio": "Delivering comprehensive end to end <strong>website development</strong>, from concept and design to launch. Focused on creating responsive, robust, and high quality web solutions that combine functionality, aesthetics, and exceptional user experience.",
     "happyClients": [
       {
         "pictureUrl": "/1.webp",
@@ -50,12 +51,7 @@
   "aboutPage": {
     "whoIs": "Youssef Elsabawy",
     "story": [
-      "My name is Youssef Elsabawy, born and raised in Alexandria, Egypt.",
-      "I studied at Victory College School, where I graduated in 2017 with a strong academic foundation.",
-      "From the age of 6 until 16, I played basketball at Alexandria Sporting Club.",
-      "I pursued my higher education at Alexandria University, majoring in Computer Science. In 2021, I graduated as one of the top 10 students in my class.",
-      "After graduation, I served in the Egyptian Army, where I was assigned to Naval Security.",
-      "Following my military service, I started my professional journey."
+      "Basketball veteran, army survivor, and serial life experimenter, I’ve tried it all and survived most of it. Today, I focus on coding, building<strong>  websites</strong>, solving problems"
     ],
     "reflection": "My journey through sports, academics, military service, and professional work has shaped my character and values. I’ve learned discipline, perseverance, and adaptability, and I remain dedicated to growing, learning, and contributing positively in everything I do.",
     "Technical": [
@@ -110,7 +106,7 @@
       "url": "mailto:yelsabawyy@gmail.com",
       "icon": "email"
     },
-     {
+    {
       "name": "GitHub",
       "url": "https://github.com/yelsabawyy",
       "icon": "github"
@@ -130,7 +126,6 @@
       "url": "https://x.com/yelsabawyy",
       "icon": "twitter"
     }
-   
   ],
 
   "resume": {
@@ -159,7 +154,6 @@
       "devopsCloud": ["Docker", "GIT", "AWS", "Backblaze B2"]
     },
     "experience": [
-      
       {
         "company": "Tech Hive",
         "role": "Full Stack Developer",
@@ -215,7 +209,7 @@
       {
         "name": "Squarement - Jeddah, Saudi Arabia",
         "year": 2025,
-        "details":[
+        "details": [
           "Developed features for the Laser application using Angular, improving user experience and interface performance.",
           "Built core modules of the Motkalem platform using Angular, including dashboards and auth flows."
         ]
@@ -350,13 +344,13 @@
     },
     {
       "url": "https://generate-invoice-pdf-omega.vercel.app/",
-      "title": "Go-Invoice",
+      "title": "Go Invoice",
       "Description": "Create Invoice then Download PDF",
       "github": "https://github.com/Yelsabawyy/Generate-Invoice-PDF"
     },
     {
       "url": "https://typing-speed-blue.vercel.app/",
-      "title": "Typing-speed",
+      "title": "Typing speed",
       "Description": "Typing Speed per Minute (WPM) refers to how many words a person can type correctly within one minute"
     }
   ]

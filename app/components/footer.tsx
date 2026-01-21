@@ -54,14 +54,14 @@ export default function Footer() {
     <div className="bg-[#D5D2C8] min-h-screen flex flex-col justify-between p-8 lg:p-16 relative">
       {/* Main content */}
       <div className="flex-1 flex flex-col justify-center max-w-4xl">
-        <h2 className="text-4xl lg:text-6xl xl:text-7xl font-light text-black mb-8 leading-tight">
+        <h2 className="text-4xl lg:text-6xl xl:text-7xl font-light text-black mb-5 leading-tight">
           Looking for a partner?
         </h2>
-        <p className="text-lg lg:text-xl text-black/80 max-w-lg">
-          {`Whether it’s building from scratch or scaling what you have, I’d love to collaborate.`}{" "}
+        <p className="text-lg text-black/80 max-w-lg">
+          {`I build websites that usually work perfectly. Unless the universe disagrees.`}{" "}
         </p>
 
-        <div className="flex flex-wrap gap-2 mt-8 items-center">
+        <div className="flex flex-wrap gap-2 mt-2 items-center">
           {siteData.socialLinks.map((link) => (
               <a
                 key={link.name}
@@ -99,22 +99,32 @@ export default function Footer() {
           {new Date().getFullYear()} © Youssef Elsabawy
         </p>
 
-        <div className="flex gap-4">
+        <div className="flex gap-2">
           <Link href={"https://www.linkedin.com/in/yelsabawyy"} target="_blank">
             <button className="cursor-pointer bg-black text-white px-4 py-2 rounded-full font-medium text-sm hover:bg-[#ff7648] hover:text-black duration-500 transition-colors">
               LinkedIn
             </button>
           </Link>
-          <Link href={"/projects"}>
+          <Link href={"/about"}>
+            <button className="cursor-pointer border border-black text-black px-4 py-2 rounded-full font-medium text-sm hover:border-black transition-colors">
+              About
+            </button>
+          </Link> 
+          {/* <Link href={"/websites"}>
+            <button className="cursor-pointer border border-black text-black px-4 py-2 rounded-full font-medium text-sm hover:border-black transition-colors">
+              Websites
+            </button>
+          </Link>  */}
+          {/* <Link href={"/websites"}>
             <button className="cursor-pointer bg-black text-white px-4 py-2 rounded-full font-medium text-sm hover:bg-[#ff7648] hover:text-black duration-500 transition-colors">
-              Projects
+              Websites
             </button>
           </Link>
           <Link href={"/resume"}>
             <button className="cursor-pointer border border-black text-black px-4 py-2 rounded-full font-medium text-sm hover:border-black transition-colors">
               Resume
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
