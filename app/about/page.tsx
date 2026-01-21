@@ -14,8 +14,8 @@ export default function AboutMe() {
         ))}
       </div>
 
-      <h2 className="text-2xl font-semibold mt-6">A Personal Reflection</h2>
-      <p className="text-lg leading-8">{reflection}</p>
+      {/* <h2 className="text-2xl font-semibold mt-6">A Personal Reflection</h2>
+      <p className="text-lg leading-8">{reflection}</p> */}
 
       <h2 className="text-2xl font-semibold mt-6">Crafting Web Experiences</h2>
       <div className="text-lg leading-8 space-y-2">
