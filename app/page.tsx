@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <HeroSection/>
-      <AboutMe/>
-      <ServicesSection/>
+      {/* <AboutMe/> */}
+      {/* <ServicesSection/> */}
       <Mailing/>
     </div>
   );

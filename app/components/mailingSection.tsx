@@ -70,8 +70,8 @@ export function Mailing() {
   };
 
   return (
-    <div className="bg-[#FAF3E9]">
-      <div className="max-w-2xl mx-auto px-6 py-16 text-center">
+    <div className="bg-white">
+      <div className="max-w-3xl mx-auto px-6 py-16 text-center">
         <div className="absolute -mt-24">
           <Image
             src={"/smile.png"}
@@ -87,7 +87,7 @@ export function Mailing() {
 
         <p className="text-lg text-muted-foreground mb-12 max-w-xl mx-auto leading-relaxed">
           Got an idea, a project, or just want to say hi? Drop me a message, I’d
-          love to hear from you.
+          <span className="text-[#ff7648]"> love </span> to hear from you.
         </p>
 
         <form
@@ -117,7 +117,7 @@ export function Mailing() {
               id="fullName"
               type="text"
               {...register("fullName")}
-              className="border-0 border-b border-gray-300 rounded-none bg-transparent px-0 py-3 text-base"
+              className="border-0 border-b shadow-none  border-gray-300 rounded-none bg-transparent px-0 py-3 text-base"
             />
             {errors.fullName && (
               <p className="text-red-500 text-sm">{errors.fullName.message}</p>
@@ -133,7 +133,7 @@ export function Mailing() {
               id="subject"
               type="text"
               {...register("subject")}
-              className="border-0 border-b border-gray-300 rounded-none bg-transparent px-0 py-3 text-base"
+              className="border-0 border-b shadow-none border-gray-300 rounded-none bg-transparent px-0 py-3 text-base"
             />
             {errors.subject && (
               <p className="text-red-500 text-sm">{errors.subject.message}</p>
@@ -149,7 +149,7 @@ export function Mailing() {
               id="email"
               type="email"
               {...register("email")}
-              className="border-0 border-b border-gray-300 rounded-none bg-transparent px-0 py-3 text-base"
+              className="border-0 border-b shadow-none border-gray-300 rounded-none bg-transparent px-0 py-3 text-base"
             />
             {errors.email && (
               <p className="text-red-500 text-sm">{errors.email.message}</p>
@@ -165,7 +165,7 @@ export function Mailing() {
               id="message"
               {...register("message")}
               rows={5}
-              className="border-0 border-b border-gray-300 rounded-none bg-transparent px-0 py-3 text-base resize-none focus:border-black focus:ring-0"
+              className="border-0 border-b shadow-none border-gray-300 rounded-none bg-transparent px-0 py-3 text-base resize-none focus:border-black focus:ring-0"
             />
             {errors.message && (
               <p className="text-red-500 text-sm">{errors.message.message}</p>

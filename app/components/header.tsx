@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <div className="relative">
       {showHeaderButtons && (
-        <div className="flex flex-wrap gap-4 p-4">
+        <div className={`flex flex-wrap gap-4 p-4`}>
           <Link
             href="/"
             className="cursor-pointer text-sm border border-black bg-black text-white px-4 py-2 rounded-full font-medium hover:border-[#FAF3E9] transition-colors"
@@ -43,12 +43,12 @@ export default function Header() {
       )}
 
       {/* Plus Button */}
-      <button
+      {/* <button
         onClick={() => setDrawerOpen(true)}
         className="fixed top-8 cursor-pointer right-8 w-12 h-12 bg-black rounded-full flex items-center justify-center hover:scale-110 transition-transform z-20"
       >
         <Plus className="w-6 h-6 text-white" />
-      </button>
+      </button> */}
 
       {/* Drawer */}
       <div
@@ -57,14 +57,14 @@ export default function Header() {
         }`}
       >
         {/* Close Button */}
-        <div className="flex justify-between p-4">
-          <Link
+        <div className="flex justify-end p-4">
+          {/* <Link
             href="/"
             onClick={() => setDrawerOpen(false)}
             className="cursor-pointer text-sm border border-black bg-black text-white px-4 py-2 rounded-full font-medium hover:border-[#FAF3E9] transition-colors"
           >
             {siteData.name}
-          </Link>
+          </Link> */}
           <button onClick={() => setDrawerOpen(false)}>
             <X className="w-6 h-6 text-black cursor-pointer" />
           </button>
@@ -73,13 +73,6 @@ export default function Header() {
         {/* Drawer Content */}
         <div className="p-6 space-y-4 text-6xl md:text-8xl">
           <Link
-            href="/projects"
-            onClick={() => setDrawerOpen(false)}
-            className="block  text-gray-800 hover:opacity-80 transition-opacity"
-          >
-            Projects
-          </Link>
-          <Link
             href="/about"
             onClick={() => setDrawerOpen(false)}
             className="block  text-gray-800 hover:opacity-80 transition-opacity"
@@ -87,14 +80,22 @@ export default function Header() {
             About
           </Link>
           <Link
+            href="/websites"
+            onClick={() => setDrawerOpen(false)}
+            className="block  text-gray-800 hover:opacity-80 transition-opacity"
+          >
+            Websites
+          </Link>
+
+          {/* <Link
             href="/resume"
             onClick={() => setDrawerOpen(false)}
             className="block  text-gray-800 hover:opacity-80 transition-opacity"
           >
             Resume
-          </Link>
+          </Link> */}
 
-          <div className="flex flex-wrap gap-6 mt-12 items-center">
+          <div className="flex flex-wrap gap-2 mt-12 items-center">
             <div>
               {/* <Image
                 src="/icon.png"

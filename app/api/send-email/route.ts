@@ -8,7 +8,7 @@ export async function POST(req: Request) {
     if (!fullName || !subject || !email || !message) {
       return NextResponse.json(
         { message: "All fields are required" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -52,7 +52,7 @@ Youssef Elsabawy
 
     return NextResponse.json(
       { message: "Emails sent successfully" },
-      { status: 200 }
+      { status: 200 },
     );
   } catch (error) {
     console.error("Contact form error:", error);

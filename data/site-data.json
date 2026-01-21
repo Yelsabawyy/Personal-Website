@@ -2,7 +2,8 @@
   "name": "Youssef Elsabawy",
   "heroSection": {
     "myPicture": "",
-    "bio": "I provide end to end website development services, from initial design to final deployment. My focus is on delivering responsive, reliable, and professional web solutions.",
+    "bio": "Caught you! <strong>Need a website</strong> or <strong>want to connect</strong>? Send me a message in the contact section below.",
+    "oldBio": "Delivering comprehensive end to end <strong>website development</strong>, from concept and design to launch. Focused on creating responsive, robust, and high quality web solutions that combine functionality, aesthetics, and exceptional user experience.",
     "happyClients": [
       {
         "pictureUrl": "/1.webp",
@@ -44,28 +45,26 @@
   "aboutSection": {
     "whoIs": "Youssef",
     "startYear": 2022,
-    "bio": "I’m Youssef Elsabawy, a web developer with over {yearsOfExperience} years of experience. I specialize in creating complete websites from scratch starting with modern, responsive designs, developing clean and functional code, and deploying fully optimized websites ready for users."
+    "bio": "I am a Frontend Developer at Jobin Cloud experienced in building scalable web applications from scratch. I focus on modern UI design, clean and maintainable frontend architecture, performance optimization, and delivering production ready solutions aligned with product and business goals.",
+    "oldBio": "I’m Youssef Elsabawy, a web developer with over {yearsOfExperience} years of experience. I specialize in creating complete websites from scratch starting with modern, responsive designs, developing clean and functional code, and deploying fully optimized websites ready for users."
   },
   "aboutPage": {
     "whoIs": "Youssef Elsabawy",
     "story": [
-      "My name is Youssef Elsabawy, born and raised in Alexandria, Egypt.",
-      "I studied at Victory College School, where I graduated in 2017 with a strong academic foundation.",
-      "From the age of 6 until 16, I played basketball at Alexandria Sporting Club.",
-      "I pursued my higher education at Alexandria University, majoring in Computer Science. In 2021, I graduated as one of the top 10 students in my class.",
-      "After graduation, I served in the Egyptian Army, where I was assigned to Naval Security.",
-      "Following my military service, I started my professional journey in the technology field as a Full Stack Engineer."
+      "Basketball veteran, army survivor, and serial life experimenter, I’ve tried it all and survived most of it. Today, I focus on coding, building<strong>  websites</strong>, solving problems"
     ],
     "reflection": "My journey through sports, academics, military service, and professional work has shaped my character and values. I’ve learned discipline, perseverance, and adaptability, and I remain dedicated to growing, learning, and contributing positively in everything I do.",
     "Technical": [
       "• SQL Database Internship at Alexandria Port",
       "• Software Engineering Internship at RMZ Tech",
-      "• Full Stack Internship at ITI (1 month)",
+      "• Full Stack Internship at ITI",
       "• Graduation Project: E-commerce platform with image search functionality",
       "• Developed Roaden Mobile Application (project paused due to funding)",
-      "• Full Stack Internship at ITI (3 months)",
+      "• Full Stack Internship at ITI",
       "• Solved 300+ algorithm and coding problems on LeetCode",
-      "• Full-time Full Stack Engineer at Techhive"
+      "• Full Stack Engineer at Techhive",
+      "• Frontend Engineer at Squarement",
+      "• Frontend Engineer at Jobin Cloud"
     ]
   },
 
@@ -108,6 +107,11 @@
       "icon": "email"
     },
     {
+      "name": "GitHub",
+      "url": "https://github.com/yelsabawyy",
+      "icon": "github"
+    },
+    {
       "name": "Facebook",
       "url": "https://www.facebook.com/youssef.elsabawy",
       "icon": "facebook"
@@ -118,9 +122,9 @@
       "icon": "instagram"
     },
     {
-      "name": "GitHub",
-      "url": "https://github.com/yelsabawyy",
-      "icon": "github"
+      "name": "Twitter",
+      "url": "https://x.com/yelsabawyy",
+      "icon": "twitter"
     }
   ],
 
@@ -150,7 +154,6 @@
       "devopsCloud": ["Docker", "GIT", "AWS", "Backblaze B2"]
     },
     "experience": [
-      
       {
         "company": "Tech Hive",
         "role": "Full Stack Developer",
@@ -206,7 +209,7 @@
       {
         "name": "Squarement - Jeddah, Saudi Arabia",
         "year": 2025,
-        "details":[
+        "details": [
           "Developed features for the Laser application using Angular, improving user experience and interface performance.",
           "Built core modules of the Motkalem platform using Angular, including dashboards and auth flows."
         ]
@@ -341,13 +344,13 @@
     },
     {
       "url": "https://generate-invoice-pdf-omega.vercel.app/",
-      "title": "Go-Invoice",
+      "title": "Go Invoice",
       "Description": "Create Invoice then Download PDF",
       "github": "https://github.com/Yelsabawyy/Generate-Invoice-PDF"
     },
     {
       "url": "https://typing-speed-blue.vercel.app/",
-      "title": "Typing-speed",
+      "title": "Typing speed",
       "Description": "Typing Speed per Minute (WPM) refers to how many words a person can type correctly within one minute"
     }
   ]

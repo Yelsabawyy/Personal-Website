@@ -34,8 +34,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Block social media crawlers and image indexing */}
-        <meta name="robots" content="index, follow, noarchive, nosnippet, noimageindex" />
-        
+        <meta
+          name="robots"
+          content="index, follow, noarchive, nosnippet, noimageindex"
+        />
+
         {/* No Open Graph tags at all */}
         {/* No Twitter cards */}
         {/* No other social metadata */}
